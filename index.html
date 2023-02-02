@@ -27,25 +27,17 @@
             background-color: #22c5f2;
             color: #fff;
         }
-        span{
-            position: absolute;
-            top: 416px;
-            background: white;
-            padding: 7px 10px 0px 10px;
-            z-index: 1;
-            left: 154px;
-            box-sizing: border-box;
-        }
         body{
             background-color: #ededed;
         }
+       
     </style>
 </head>
 <body>
     <div class="d-block d-md-none p-2 bg-primary text-light">d-inline</div>
     <div class="container">
-        <div class="row justify-content-center login-box">
-            <div class="col-sm-4 col-12 col-md-6">
+        <div class="row justify-content-evenly login-box">
+            <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4">
                 <div class="card" style="min-height: 470px">
                     <div class="card-header bg-info text-light">
                         <p class="h4 text-center"><b>Login Here</b></p>
@@ -67,7 +59,11 @@
                         </form>
                         <a href="#" class="d-block mb-1">Forgot Password</a>
                         <a href="#" class="d-block ">Register New Member</a>
-                        <span>OR</span><hr>
+                            <div class="row">
+                                <div class="col-5 col-sm-5 col-md-5"><hr></div>
+                                <div class="col-2 col-sm-2 col-md-2 text-center">OR</div>
+                                <div class="col-5 col-sm-5 col-md-5"><hr></div>
+                            </div>
                         <div class="text-center">
                         <a href="#" class="d-inline-block social-icon"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#" class="d-inline-block social-icon"><i class="fa-brands fa-twitter"></i></a>
